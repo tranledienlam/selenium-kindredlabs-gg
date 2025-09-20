@@ -36,7 +36,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 📌 **Trang dự án**: [waitlist.kindredlabs.ai](https://waitlist.kindredlabs.ai?code=D8741E8)
 
 <p align="center">
-    <img src="./intro.jpg" alt="Giới thiệu">
+    <img src="intro.jpg" alt="Giới thiệu">
 </p>
 
 ---
