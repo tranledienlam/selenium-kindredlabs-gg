@@ -79,7 +79,74 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 
 ## 📌 Hướng dẫn cài đặt
 
-### 1️ Tạo file `data.txt`.
+### 1️ Cài đặt Python & thư viện
+
+Trước tiên, cần cài đặt **Python 3.8+**.  
+Nếu chưa có, hãy tải và cài đặt từ [Python Official Site](https://www.python.org/downloads/).
+
+#### 🔹 Kiểm tra phiên bản Python
+```sh
+python --version
+````
+
+hoặc:
+
+```sh
+py --version
+python3 --version
+```
+
+#### 🔹 Các bước cài đặt dự án
+
+1. **Tải hoặc clone dự án**
+
+   - **Cách 1**: Tải trực tiếp chương trình **ToolManager.exe** tại:  
+     👉 [Download ToolManager.exe](https://github.com/tranledienlam/gui_automation/tree/main/dist)
+
+   - **Cách 2**: Clone source code từ GitHub:
+     ```sh
+     git clone https://github.com/tranledienlam/selenium-kindredlabs-gg.git
+     cd selenium-kindredlabs-gg
+     ```
+
+2. **Tạo môi trường ảo**
+
+   ```sh
+   python -m venv venv-browserkit0.3.0
+   ```
+
+3. **Kích hoạt môi trường ảo**
+
+   * **Windows**
+
+     ```sh
+     venv-browserkit0.3.0\Scripts\activate
+     ```
+   * **Linux/macOS**
+
+     ```sh
+     source venv-browserkit0.3.0/bin/activate
+     ```
+
+4. **Cài đặt thư viện**
+
+   ```sh
+   pip install selenium-browserkit==0.3.0
+   ```
+
+5. **(Tuỳ chọn) Cài đặt từ source**
+
+   ```sh
+   pip install -e .
+   ```
+
+6. **Sau khi cài đặt thành công, hãy kiểm tra bằng:**
+
+    ```sh
+    pip show selenium-browserkit
+    ```
+
+### 2️⃣ Tạo file `data.txt`.
 
 - Mỗi dòng chứa thông tin một profile theo cấu trúc:
   ```plaintext
@@ -103,8 +170,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
   profile3|email3@gmail.com                             // Không mật khẩu email, không proxy
   ```
 
-
-### 2️⃣ Chỉnh sửa cấu hình file `config.txt`.
+### 3️ Chỉnh sửa cấu hình file `config.txt`.
 
 **Bước 1**: Đổi tên file `config_example.txt` thành `config.txt`
 
@@ -193,75 +259,6 @@ Hầu hết trường hợp bị lỗi là do quá trình load chậm khi chạy
   PYTHON_PATH=E:\venv\Scripts\python.exe
   ```
 - **Lưu ý**: Để trống để sử dụng Python hệ thống
-
-### 3️ Cài đặt Python & thư viện
-
-Trước tiên, cần cài đặt **Python 3.8+**.  
-Nếu chưa có, hãy tải và cài đặt từ [Python Official Site](https://www.python.org/downloads/).
-
-#### 🔹 Kiểm tra phiên bản Python
-```sh
-python --version
-````
-
-hoặc:
-
-```sh
-py --version
-python3 --version
-```
-
-#### 🔹 Các bước cài đặt dự án
-
-1. **Tải hoặc clone dự án**
-
-   - **Cách 1**: Tải trực tiếp chương trình **ToolManager.exe** tại:  
-     👉 [Download ToolManager.exe](https://github.com/tranledienlam/gui_automation/tree/main/dist)
-
-   - **Cách 2**: Clone source code từ GitHub:
-     ```sh
-     git clone https://github.com/tranledienlam/selenium-kindredlabs-gg.git
-     cd selenium-kindredlabs-gg
-     ```
-
-2. **Tạo môi trường ảo**
-
-   ```sh
-   python -m venv venv-browserkit0.3.0
-   ```
-
-3. **Kích hoạt môi trường ảo**
-
-   * **Windows**
-
-     ```sh
-     venv-browserkit0.3.0\Scripts\activate
-     ```
-   * **Linux/macOS**
-
-     ```sh
-     source venv-browserkit0.3.0/bin/activate
-     ```
-
-4. **Cài đặt thư viện**
-
-   ```sh
-   pip install selenium-browserkit==0.3.0
-   ```
-
-5. **(Tuỳ chọn) Cài đặt từ source**
-
-   ```sh
-   pip install -e .
-   ```
-
-6. **Sau khi cài đặt thành công, hãy kiểm tra bằng:**
-
-    ```sh
-    pip show selenium-browserkit
-    ```
-
----
 
 ## ▶ Hướng dẫn sử dụng
 
