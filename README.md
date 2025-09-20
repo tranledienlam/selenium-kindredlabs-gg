@@ -134,13 +134,7 @@ python3 --version
    pip install selenium-browserkit==0.3.0
    ```
 
-5. **(Tuỳ chọn) Cài đặt từ source**
-
-   ```sh
-   pip install -e .
-   ```
-
-6. **Sau khi cài đặt thành công, hãy kiểm tra bằng:**
+5. **Sau khi cài đặt thành công, hãy kiểm tra bằng:**
 
     ```sh
     pip show selenium-browserkit
