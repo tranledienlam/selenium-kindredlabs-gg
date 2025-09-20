@@ -36,7 +36,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 📌 **Trang dự án**: [waitlist.kindredlabs.ai](https://waitlist.kindredlabs.ai?code=D8741E8)
 
 <p align="center">
-    <img src="./intro.png" alt="Giới thiệu">
+    <img src="./intro.jpg" alt="Giới thiệu">
 </p>
 
 ---
@@ -71,7 +71,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 | `googl.py`                       | Xử lý các thao tác liên quan đến Google.   |
 | `index.py`                       | File khởi chạy chương trình chính.         |
 | `config_example.txt`             | File cấu hình mẫu cho tool.                |
-| `intro.png`                      | Hình ảnh giới thiệu.                       |
+| `intro.jpg`                      | Hình ảnh giới thiệu.                       |
 | `run_menu.bat`                   | Chạy code với 1 click.                     |
 | `run_hidden.vbs`                 | Chạy code với Task scheduler (window).     |
 
