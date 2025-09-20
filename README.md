@@ -20,9 +20,8 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 5. [Cấu trúc file](#-cấu-trúc-file)
 6. [Hướng dẫn cài đặt](#-hướng-dẫn-cài-đặt)
 7. [Hướng dẫn sử dụng](#-hướng-dẫn-sử-dụng)
-8. [Tùy chỉnh cấu hình](#-tùy-chỉnh-cấu-hình)
-9. [Tips](#-tips)
-10. [Thông tin liên hệ](#-thông-tin-liên-hệ)
+8. [Tips](#-tips)
+9. [Thông tin liên hệ](#-thông-tin-liên-hệ)
 
 ## 🔔 Bật thông báo để theo dõi mã nguồn khi có update
 
@@ -37,7 +36,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 📌 **Trang dự án**: [waitlist.kindredlabs.ai](https://waitlist.kindredlabs.ai?code=D8741E8)
 
 <p align="center">
-    <img src="intro.png" alt="Giới thiệu">
+    <img src="./intro.png" alt="Giới thiệu">
 </p>
 
 ---
