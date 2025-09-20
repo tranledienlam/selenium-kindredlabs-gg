@@ -41,13 +41,13 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 
 ---
 
-## 🎬 Video demo (Chưa cập nhật)
+## 🎬 Video demo
 
-<!-- <p align="center">
-    <a href="https://youtu.be/W92xKrw16Ak">
-        <img src="https://img.youtube.com/vi/W92xKrw16Ak/maxresdefault.jpg" alt="Xem video demo">
+<p align="center">
+    <a href="https://youtu.be/SzvhWUv25Pc">
+        <img src="https://img.youtube.com/vi/SzvhWUv25Pc/maxresdefault.jpg" alt="Xem video demo">
     </a>
-</p> -->
+</p>
 
 ---
 

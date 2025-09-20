@@ -19,6 +19,12 @@ TELE_BOT=
 AI_BOT=AIzjSyAxmkXl_3aixsTcRAJSabUeLmzsSz0ovAg
 AI_BOT=
 
+# Danh sách PROXY <string>
+## Đây là danh sách proxy dự phòng, nếu không cung cấp proxy cho từng profile bên data.txt
+## <ip:port@username:password> <username:password@ip:port> <ip:port>
+PROXY=
+PROXY=
+
 # Đường dẫn môi trường chạy Python <PATH>
 ## Để trống để sử dụng Python hệ thống
 ## Hoặc chỉ định đường dẫn môi trường ảo: E:\venv\Scripts\python.exe
