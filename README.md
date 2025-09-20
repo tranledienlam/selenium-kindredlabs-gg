@@ -69,13 +69,7 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 
 | File                             | Mô tả                                      |
 | -------------------------------- | ------------------------------------------ |
-| `extensions/Bitget-Wallet-*.crx` | Tiện ích mở rộng Bitget Wallet.            |
-| `extensions/Meta-Wallet-*.crx`   | Tiện ích mở rộng Metamask Wallet.          |
-| `browser_automation.py`          | Code tự động hóa trình duyệt.              |
-| `utils.py`                       | Các hàm hỗ trợ chung.                      |
 | `googl.py`                       | Xử lý các thao tác liên quan đến Google.   |
-| `w_biget.py`                     | Xử lý các thao tác liên quan đến Biget.    |
-| `w_metamask.py`                  | Xử lý các thao tác liên quan đến Metamask. |
 | `index.py`                       | File khởi chạy chương trình chính.         |
 | `config_example.txt`             | File cấu hình mẫu cho tool.                |
 | `intro.png`                      | Hình ảnh giới thiệu.                       |
@@ -90,26 +84,24 @@ Trong trường hợp quá trình tải tự động thất bại, tool sẽ m�
 
 - Mỗi dòng chứa thông tin một profile theo cấu trúc:
   ```plaintext
-  <tên_profile>|<mật_khẩu_ví_bitget>|<email>|<mật_khẩu_email (tùy chọn 1)>|<12_seeds (tuỳ chọn 2)>|<proxy (tuỳ chọn)>
+  <tên_profile>|<email>|<mật_khẩu_email (tùy chọn 1)>|<proxy (tuỳ chọn)>
   ```
 
   Trong đó:
 
     - `tên_profile`: Tên của profile.
-    - `mật_khẩu_ví_bitget`: Mật khẩu đăng nhập ví Bitget.
     - `email`: địa chỉ gmail.
     - `mật_khẩu_email (tùy chọn 1)`: mật khẩu đăng nhập gmail. (Nếu không cung cấp, hãy thực hiện đăng nhập thủ công)
-    - `12_seeds (tuỳ chọn 2)`: Để thực hiện import vào ví bitget. (Nếu không cung cấp, hãy thực hiện thủ công ở chế độ 1.setup)
     - `proxy (tuỳ chọn)`: Có thể là một trong hai dạng sau:
       - `ip:port` → Proxy không có xác thực.
       - `user:pass@ip:port` → Proxy có xác thực bằng tài khoản & mật khẩu.
+      - `ip:port@user:pass` → Proxy có xác thực bằng tài khoản & mật khẩu.
 
 - Ví dụ:
   ```plaintext
-  profile1|12345678|email1@gmail.com|111111|word1 ... word12|38.154.227.167:2534  // Đầy đủ
-  profile2|12345678|email2@gmail.com|111111                                       // Không seeds, không proxy
-  profile3|12345678|email3@gmail.com|<dấu cách>|word1 ... word12                  // Không mật khẩu email, không proxy
-  profile4|12345678|email4@gmail.com                                              // không mật khẩu, không seeds, không proxy
+  profile1|email1@gmail.com|111111|38.154.227.167:2534  // Đầy đủ
+  profile2|email2@gmail.com|111111                      // Không proxy
+  profile3|email3@gmail.com                             // Không mật khẩu email, không proxy
   ```
 
 
