@@ -66,7 +66,7 @@ class Auto:
             if loged_in == True:
                 return True
             elif loged_in == False:
-                btn_gg = self.node.find(By.XPATH, '//div[@id="login-btn"]//*[contains(@class, "pointer-events-auto")][1]')
+                btn_gg = self.node.find(By.XPATH, '//div[@id="login-btn"]//button[1]')
                 self.node.scroll_to_element(btn_gg)
                 self.node.click(btn_gg)
                 self.google_auto.confirm_login()
@@ -120,7 +120,9 @@ class Auto:
 
     def run(self):
         if not self.google_auto:
-            return
+            self.node.log(f'Đăng nhập goggle khôgn thành công')
+            pass
+
         self.node.new_tab(f'{PROJECT_URL}', method="get")
         if not self.active_login():
             return
